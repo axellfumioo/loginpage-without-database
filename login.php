@@ -26,7 +26,6 @@ if($_SESSION['logged_in']==true)
   }
   if($_POST)
   {
-  $username = 'Admin';
   $password = 'Admin123';
 
   if($_POST['password']==$password)
