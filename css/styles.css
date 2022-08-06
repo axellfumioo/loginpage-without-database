@@ -1,0 +1,87 @@
+body{
+    font: 20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+    color: #404040;
+}
+
+.btn-class {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-class:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+
+#actions{
+    padding: 10px;
+}
+
+#userNotes{
+    font-size: 0.7em;
+    text-align:left;
+    padding: 10px;
+}
+
+#infoMsg{
+    padding: 10px;
+    background-color: #BDE5F8;
+    color: black;
+    font-size: 0.8em;
+}
+
+#successMsg{
+    padding: 10px;
+    background-color: green;
+}
+
+#loginForm{
+    text-align: center;
+    border: thin solid #000;
+    width: 300px;
+    margin: 7em auto 0 auto;
+}
+
+#formHead{
+    border-bottom: thin solid gray;
+    padding: 10px;
+    background: #f3f3f3;
+}
+
+#failedMsg{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+#formBody{
+    padding: 5px;
+}
+
+input[type=text], input[type=password]{
+    padding: 10px
+}
