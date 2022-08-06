@@ -22,7 +22,7 @@ if($_SESSION['logged_in']==true)
 <?php
   if($_GET['action']=='not_logged_in')
   {
-    echo "<div id='inFoMsg'>You are not logged in! Please login.</div>";
+    echo "<div id='infoMsg'>You are not logged in! Please login.</div>";
   }
   if($_POST)
   {
